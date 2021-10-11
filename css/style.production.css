@@ -68,7 +68,7 @@ header {
 body {
   margin-left: 20px;
   background-color: white;
-  font-family: 'Urbanist';
+  font-family: 'Urbanist', sans-serif;
   color: #828A95;
   font-weight: 400;
   font-size: 16px;
@@ -100,7 +100,7 @@ body {
   margin: 0 auto;
 }
 h1 {
-  font-family: 'Urbanist';
+  font-family: 'Urbanist', sans-serif;
   color: #AAAE7F;
   margin-left: 0px;
   font-size: 20px;
@@ -109,7 +109,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Urbanist';
+  font-family: 'Urbanist', sans-serif;
   color: #ff928b;
   font-size: 24px;
   font-weight: 700;
@@ -190,7 +190,7 @@ a:hover, a:focus {
   border-bottom: 1px solid rgba(0, 0, 0, 0.8);
   -webkit-transition: 0,2s opacity;
   -o-transition: 0,2s opacity;
-  transition: 0,2s opacity;
+  transition: 0.2s opacity;
 }
 
 button:hover,
